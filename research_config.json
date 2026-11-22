@@ -2,26 +2,58 @@
 {
   "research_title": "Students' Understanding and Conceptual Difficulties in Light and Electron Interference and Diffraction",
 
-  "language": ["en","tr"],
+  "language": ["en", "tr"],
 
-  "publication_year_from": null,
-  "publication_year_to": null,
+  "publication_year_from": 2015,
+  "publication_year_to": 2026,
 
   "target_groups": [
     "high school students",
     "secondary school students",
     "undergraduate students",
-    "university students"
+    "university students",
+    "lise öğrencileri",
+    "ortaöğretim öğrencileri",
+    "üniversite öğrencileri"
   ],
 
-  "topics": [
-    "light interference",
-    "light diffraction",
-    "electron interference",
-    "electron diffraction",
-    "double-slit experiment",
-    "diffraction patterns"
-  ],
+  "research_topics": {
+    "light_interference": [
+      "light interference",
+      "double slit experiment",
+      "Young's double slit experiment",
+      "ışık girişimi",
+      "çift yarık deneyi"
+    ],
+    "light_diffraction": [
+      "light diffraction",
+      "single slit diffraction",
+      "diffraction patterns",
+      "ışık kırınımı",
+      "tek yarık kırınımı",
+      "kırınım desenleri"
+    ],
+    "electron_interference": [
+      "electron interference",
+      "electron double slit experiment",
+      "electron wave particle duality",
+      "elektron girişimi",
+      "elektron çift yarık deneyi"
+    ],
+    "electron_diffraction": [
+      "electron diffraction",
+      "electron diffraction patterns",
+      "elektron kırınımı",
+      "elektron kırınım desenleri"
+    ],
+    "wave_particle_duality": [
+      "wave particle duality",
+      "matter waves",
+      "wave particle duality misconceptions",
+      "dalga parçacık ikiliği",
+      "madde dalgaları"
+    ]
+  },
 
   "research_focus": [
     "conceptual understanding",
@@ -30,17 +62,33 @@
     "alternative conceptions",
     "conceptual difficulties",
     "student learning",
-    "wave-particle duality"
+    "conceptual change",
+    "graph interpretation",
+    "wave-particle duality",
+    "kavram yanılgıları",
+    "alternatif kavramlar",
+    "kavramsal anlama",
+    "kavramsal güçlükler"
   ],
 
   "search_queries": [
-    "\"light interference\" AND (student OR learning OR understanding OR misconception)",
-    "\"light diffraction\" AND (student OR learning OR understanding OR misconception)",
-    "\"electron interference\" AND (student OR learning OR understanding OR misconception)",
-    "\"electron diffraction\" AND (student OR learning OR understanding OR misconception)",
-    "\"double-slit experiment\" AND (student OR learning OR understanding OR misconception)",
-    "\"diffraction patterns\" AND (student OR learning OR understanding OR misconception)",
-    "\"wave-particle duality\" AND (interference OR diffraction) AND (student OR learning)"
+    "light interference",
+    "double slit experiment students",
+    "light diffraction",
+    "single slit diffraction students",
+    "electron interference",
+    "electron diffraction",
+    "wave particle duality students",
+    "light interference misconceptions",
+    "light diffraction misconceptions",
+    "electron interference students understanding",
+    "electron diffraction conceptual understanding",
+    "ışık girişimi",
+    "ışık kırınımı",
+    "elektron girişimi",
+    "elektron kırınımı",
+    "çift yarık deneyi kavram yanılgıları",
+    "dalga parçacık ikiliği öğrenciler"
   ],
 
   "max_results_per_query": 100
