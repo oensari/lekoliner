@@ -4,13 +4,33 @@ name: Academic Research Agent
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  test-agent:
+  research:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check cloud environment
-        run: echo "Academic Research Agent cloud environment is ready!"
+      - name: Download repository
+        uses: actions/checkout@v4
 
-      - name: Check Python
-        run: python --version
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run academic research
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python main.py
+
+      - name: Save research results
+        uses: actions/upload-artifact@v4
+        with:
+          name: academic-research-results
+          path: output/
+          if-no-files-found: error
