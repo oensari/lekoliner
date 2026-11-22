@@ -1,0 +1,47 @@
+
+{
+  "research_title": "Students' Understanding and Conceptual Difficulties in Light and Electron Interference and Diffraction",
+
+  "language": ["en","tr"],
+
+  "publication_year_from": null,
+  "publication_year_to": null,
+
+  "target_groups": [
+    "high school students",
+    "secondary school students",
+    "undergraduate students",
+    "university students"
+  ],
+
+  "topics": [
+    "light interference",
+    "light diffraction",
+    "electron interference",
+    "electron diffraction",
+    "double-slit experiment",
+    "diffraction patterns"
+  ],
+
+  "research_focus": [
+    "conceptual understanding",
+    "students' understanding",
+    "misconceptions",
+    "alternative conceptions",
+    "conceptual difficulties",
+    "student learning",
+    "wave-particle duality"
+  ],
+
+  "search_queries": [
+    "\"light interference\" AND (student OR learning OR understanding OR misconception)",
+    "\"light diffraction\" AND (student OR learning OR understanding OR misconception)",
+    "\"electron interference\" AND (student OR learning OR understanding OR misconception)",
+    "\"electron diffraction\" AND (student OR learning OR understanding OR misconception)",
+    "\"double-slit experiment\" AND (student OR learning OR understanding OR misconception)",
+    "\"diffraction patterns\" AND (student OR learning OR understanding OR misconception)",
+    "\"wave-particle duality\" AND (interference OR diffraction) AND (student OR learning)"
+  ],
+
+  "max_results_per_query": 100
+}
