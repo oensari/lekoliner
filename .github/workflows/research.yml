@@ -1,0 +1,16 @@
+
+name: Academic Research Agent
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check cloud environment
+        run: echo "Academic Research Agent cloud environment is ready!"
+
+      - name: Check Python
+        run: python --version
